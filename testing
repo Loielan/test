@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation - Votre Entreprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Bienvenue sur notre site</h1>
+            <p>Votre partenaire en géotechnique et étude de sol.</p>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Mise en relation</h3>
+                <p>Nous vous mettons en contact avec les meilleures entreprises géotechniques.</p>
+            </div>
+            <div class="service">
+                <h3>Étude de sol G1</h3>
+                <p>Obtenez une étude de sol de qualité pour votre terrain.</p>
+            </div>
+            <div class="service">
+                <h3>Suivi personnalisé</h3>
+                <p>Un accompagnement de A à Z pour assurer la conformité de vos projets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
